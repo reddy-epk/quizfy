@@ -1,0 +1,55 @@
+.game-reports {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.game-reports h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.report-item {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.report-item.correct {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.report-item.incorrect {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.report-item.unattempted {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.report-item p {
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  display: block;
+  width: 200px;
+  margin: 2rem auto 0;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

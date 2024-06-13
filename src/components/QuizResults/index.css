@@ -1,0 +1,47 @@
+.quiz-results {
+  text-align: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-results h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.quiz-results .score {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+.quiz-results.won {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.quiz-results.lost {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
